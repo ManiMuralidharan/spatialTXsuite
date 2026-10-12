@@ -1,0 +1,3 @@
+path,sample_id,condition,animal,platform,counts_file,positions_file
+/data/GSE000000_RAW,secA,lesioned,mouse1,VisiumFiles,GSM0000001_A_filtered_feature_bc_matrix.h5,GSM0000001_A_tissue_positions_list.csv.gz
+/data/GSE000000_RAW,secB,control,mouse2,VisiumFiles,GSM0000002_B_filtered_feature_bc_matrix.h5,GSM0000002_B_tissue_positions_list.csv.gz

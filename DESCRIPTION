@@ -1,0 +1,37 @@
+Package: spatialTXsuite
+Title: Spatial Transcriptomics Analysis in R Shiny
+Version: 1.6.1
+Authors@R: person("Muralidharan", "Mani", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-1194-3616"))
+Description: Interactive Shiny application for SpatialExperiment data from Visium, GEO-style Visium files, Xenium, MERFISH and CosMx. Covers import from a sample sheet, platform-aware QC, normalisation, joint cross-section spatial domains, per-section spatial autocorrelation (Moran's I, Geary's C) and replicate-aware pseudobulk differential expression with edgeR, including covariates and pseudoreplication checks.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.4.0)
+URL: https://github.com/ManiMuralidharan/spatialTXsuite
+BugReports: https://github.com/ManiMuralidharan/spatialTXsuite/issues
+Imports:
+    shiny,
+    SpatialExperiment,
+    SingleCellExperiment,
+    SummarizedExperiment,
+    S4Vectors,
+    scater,
+    scuttle,
+    scran,
+    BiocNeighbors,
+    DropletUtils,
+    edgeR,
+    spdep,
+    igraph,
+    Matrix,
+    ggplot2,
+    harmony
+Suggests:
+    testthat,
+    SpatialExperimentIO,
+    quarto,
+    Seurat,
+    spatialGE,
+    spacexr,
+    SingleR,
+    zellkonverter
+RoxygenNote: 7.3.2

@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use spatialTXsuite in your research, please cite it as below."
+type: software
+title: "spatialTXsuite: an R Shiny application for replicate-aware spatial transcriptomics analysis"
+abstract: >-
+  spatialTXsuite is an R Shiny application for interactive analysis of
+  spatial transcriptomics data stored as SpatialExperiment objects. It imports
+  10x Visium (Space Ranger folders or GEO-style count and position files),
+  Xenium, MERFISH and CosMx data, alone or from a multi-section sample sheet.
+  The workflow covers platform-aware quality control, normalisation, joint
+  spatial domain detection shared across sections (Harmony-corrected
+  expression with within-section neighbourhood smoothing), per-section spatial
+  autocorrelation (Moran's I and Geary's C), and pseudobulk differential
+  expression with edgeR quasi-likelihood tests. Differential expression is
+  replicate-aware: sections from the same animal or donor can be pooled, likely
+  pseudoreplication is flagged, technical covariates such as Visium slide can
+  be adjusted for, and the reference condition is explicit.
+authors:
+  - family-names: Mani
+    given-names: Muralidharan
+    affiliation: "University of Wisconsin-Madison"
+    orcid: "https://orcid.org/0000-0002-1194-3616"
+version: 1.6.1
+date-released: 2026-10-12
+license: MIT
+repository-code: "https://github.com/ManiMuralidharan/spatialTXsuite"
+keywords:
+  - spatial transcriptomics
+  - Visium
+  - Xenium
+  - SpatialExperiment
+  - pseudobulk differential expression
+  - R Shiny
+  - Bioconductor

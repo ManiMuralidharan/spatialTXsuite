@@ -1,0 +1,8 @@
+path,sample_id,condition,animal,platform
+/data/pd_study/sec01/outs,sec01,lesioned,mouse1,Visium
+/data/pd_study/sec02/outs,sec02,lesioned,mouse1,Visium
+/data/pd_study/sec03/outs,sec03,lesioned,mouse2,Visium
+/data/pd_study/sec04/outs,sec04,lesioned,mouse3,Visium
+/data/pd_study/sec05/outs,sec05,control,mouse4,Visium
+/data/pd_study/sec06/outs,sec06,control,mouse5,Visium
+/data/pd_study/sec07/outs,sec07,control,mouse6,Visium
